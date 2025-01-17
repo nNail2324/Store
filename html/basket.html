@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script>
+        function basket() {
+            window.location.href = "basket.html";
+        }
+
+        function click_plus() {
+            var print = document.getElementById("print");
+            var quantity = 1;
+            quantity++;
+            print.innerHTML = quantity;
+        }
+
+        function click_minus() {
+            var print = document.getElementById("print");
+            var quantity = 1;
+            quantity--;
+            print.innerHTML = quantity;
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-search">
+            <div class="logo">
+                <img src="image/logo.svg" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="header-buttons">
+            <div class="button-feedback">
+                <button>Обратная связь</button>
+            </div>
+            <div class="button-basket">
+                <button onclick="basket">Корзина</button>
+            </div>
+            <div class="logo-favorite">
+                <img src="image/add-favorite.svg" alt="">
+            </div>
+            <div class="logo-user">
+                <img src="image/logo-user.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="body-page">
+        <div class="name">
+            <label>Корзина</label>
+        </div>
+        <div class="types">
+            <div class="type">
+                <div class="title">
+                    <label>Уголок стальной 25x25</label>
+                </div>
+                <div class="price">
+                    <label>120 руб./м</label>
+                </div>
+                <div class="quantity-button">
+                    <button id="plus">+</button>
+                    <input type="text" placeholder="1" id="print">
+                    <button id="minus">-</button>
+                </div>
+                <div class="buttons">
+                    <div class="header-buttons">
+                        <button>Перейти</button>
+                    </div>
+                    <div class="add-button">
+                        <button>-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="type">
+                <div class="title">
+                    <label>Уголок стальной 25x25</label>
+                </div>
+                <div class="price">
+                    <label>120 руб./м</label>
+                </div>
+                <div class="quantity-button">
+                    <button id="plus">+</button>
+                    <input type="text" placeholder="1" id="print">
+                    <button id="minus">-</button>
+                </div>
+                <div class="buttons">
+                    <div class="header-buttons">
+                        <button>Перейти</button>
+                    </div>
+                    <div class="add-button">
+                        <button>-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="type">
+                <div class="title">
+                    <label>Уголок стальной 25x25</label>
+                </div>
+                <div class="price">
+                    <label>120 руб./м</label>
+                </div>
+                <div class="quantity-button">
+                    <button id="plus">+</button>
+                    <input type="text" placeholder="1" id="print">
+                    <button id="minus">-</button>
+                </div>
+                <div class="buttons">
+                    <div class="header-buttons">
+                        <button>Перейти</button>
+                    </div>
+                    <div class="add-button">
+                        <button>-</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="description">
+            <label>КОНТАКТНЫЕ ДАННЫЕ</label>
+        </div>
+        <div class="network">
+            <img src="image/whatsapp.svg" alt="">
+            <img src="image/telegram.svg" alt="">
+        </div>
+    </footer>
+</body>
+</html>

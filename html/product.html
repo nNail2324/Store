@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script>
+        function basket() {
+            window.location.href = "basket.html";
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-search">
+            <div class="logo">
+                <img src="image/logo.svg" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="header-buttons">
+            <div class="button-feedback">
+                <button>Обратная связь</button>
+            </div>
+            <div class="button-basket">
+                <button onclick="basket">Корзина</button>
+            </div>
+            <div class="logo-favorite">
+                <img src="image/add-favorite.svg" alt="">
+            </div>
+            <div class="logo-user">
+                <img src="image/logo-user.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="body-page">
+        <div class="name">
+            <label>Уголок стальной 25x25</label>
+        </div>
+        <div class="line">
+            <div class="image-product">
+                
+            </div>
+            <div class="char">
+                <div class="title">
+                    <label>Характеристики</label>
+                </div>
+                <div class="product-desc">
+                    <label>Высота:</label>
+                    <label>Ширина:</label>
+                    <label>Толщина:</label>
+                    <label>Материал:</label>
+                </div>
+                <div class="title">
+                    <label>Цена</label>
+                </div>
+                <div class="product-desc">
+                    <div class="price">
+                        <label>120 руб./м</label>
+                    </div>
+                    <div class="quantity">
+                        <input type="text" placeholder="Введите количество">
+                        <div class="header-buttons">
+                            <button>Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="char">
+            <div class="title">
+                <label>Описание</label>
+            </div>
+            <div class="char-text">
+                <p>
+                    Уголок стальной г/к равнополочный - это фасонный прокат Г-образного сечения. Уголок стальной равнополочный имеет очень широкую область применения в строительной, промышленной и других отраслях хозяйства. Уголок стальной, главным образом, применяется как усиливающий элемент при сооружении различных металлоконструкций. Иногда уголок выполняет и декоративную роль.
+
+Производится уголок стальной, согласно ГОСТ 380 из углеродистых сталей, следующих марок: Ст0, Ст3кп, Ст3пс, Ст3сп, Ст4кп, Ст4пс, Ст4сп, Ст5пс, Ст6пс, Ст6сп.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="description">
+            <label>КОНТАКТНЫЕ ДАННЫЕ</label>
+        </div>
+        <div class="network">
+            <img src="image/whatsapp.svg" alt="">
+            <img src="image/telegram.svg" alt="">
+        </div>
+    </footer>
+</body>
+</html>
