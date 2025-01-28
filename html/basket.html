@@ -5,25 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Корзина</title>
     <link rel="stylesheet" href="style/style.css">
-    <script>
-        function basket() {
-            window.location.href = "basket.html";
-        }
-
-        function click_plus() {
-            var print = document.getElementById("print");
-            var quantity = 1;
-            quantity++;
-            print.innerHTML = quantity;
-        }
-
-        function click_minus() {
-            var print = document.getElementById("print");
-            var quantity = 1;
-            quantity--;
-            print.innerHTML = quantity;
-        }
-    </script>
 </head>
 <body>
     <header class="header">
@@ -35,17 +16,17 @@
                 <input type="text" placeholder="Поиск">
             </div>
         </div>
-        <div class="header-buttons">
-            <div class="button-feedback">
+        <div class="center-row">
+            <div class="orange-button">
                 <button>Обратная связь</button>
             </div>
-            <div class="button-basket">
+            <div class="orange-button">
                 <button onclick="basket">Корзина</button>
             </div>
-            <div class="logo-favorite">
+            <div class="logo-button">
                 <img src="image/add-favorite.svg" alt="">
             </div>
-            <div class="logo-user">
+            <div class="logo-button">
                 <img src="image/logo-user.png" alt="">
             </div>
         </div>
@@ -57,10 +38,10 @@
         </div>
         <div class="types">
             <div class="type">
-                <div class="title">
+                <div class="orange-title">
                     <label>Уголок стальной 25x25</label>
                 </div>
-                <div class="price">
+                <div class="black-title">
                     <label>120 руб./м</label>
                 </div>
                 <div class="quantity-button">
@@ -68,20 +49,20 @@
                     <input type="text" placeholder="1" id="print">
                     <button id="minus">-</button>
                 </div>
-                <div class="buttons">
-                    <div class="header-buttons">
+                <div class="left-row">
+                    <div class="orange-button">
                         <button>Перейти</button>
                     </div>
                     <div class="add-button">
-                        <button>-</button>
+                        <button>&times;</button>
                     </div>
                 </div>
             </div>
             <div class="type">
-                <div class="title">
+                <div class="orange-title">
                     <label>Уголок стальной 25x25</label>
                 </div>
-                <div class="price">
+                <div class="black-title">
                     <label>120 руб./м</label>
                 </div>
                 <div class="quantity-button">
@@ -89,20 +70,20 @@
                     <input type="text" placeholder="1" id="print">
                     <button id="minus">-</button>
                 </div>
-                <div class="buttons">
-                    <div class="header-buttons">
+                <div class="left-row">
+                    <div class="orange-button">
                         <button>Перейти</button>
                     </div>
                     <div class="add-button">
-                        <button>-</button>
+                        <button>&times;</button>
                     </div>
                 </div>
             </div>
             <div class="type">
-                <div class="title">
+                <div class="orange-title">
                     <label>Уголок стальной 25x25</label>
                 </div>
-                <div class="price">
+                <div class="black-title">
                     <label>120 руб./м</label>
                 </div>
                 <div class="quantity-button">
@@ -110,14 +91,55 @@
                     <input type="text" placeholder="1" id="print">
                     <button id="minus">-</button>
                 </div>
-                <div class="buttons">
-                    <div class="header-buttons">
+                <div class="left-row">
+                    <div class="orange-button">
                         <button>Перейти</button>
                     </div>
                     <div class="add-button">
-                        <button>-</button>
+                        <button>&times;</button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="char">
+            <div class="column">
+                <div class="product-desc">
+                    <div>
+                        <div class="black-title">
+                            <label>Адрес доставки</label>
+                        </div>
+                        <div class="black-text">
+                            <label>с. Чекмагуш, ул. Луговая, д. 6</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="black-title">
+                            <label>Тип доставки</label>
+                        </div>
+                        <div class="black-text">
+                            <label>Самовывоз</label>
+                        </div>
+                    </div>
+                    
+                </div>
+               <div class="product-desc" style="text-align: right;">
+                    <div>
+                        <div class="black-title">
+                            <label>Общая сумма к оплате</label>
+                        </div>
+                        <div class="black-text">
+                            <label>3750 &#8381;</label>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <div class="right-row">
+            <div class="black-text">
+                <label>Наличными</label>
+            </div>
+            <div class="white-button">
+                <button>Заказать</button>
             </div>
         </div>
     </div>
