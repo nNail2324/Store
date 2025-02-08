@@ -181,16 +181,18 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    width: 33px;
+    height: 33px;
 }
 
 .header .logo-button img {
-    width: 33px;
-    height: 33px;
-    transition: transform 0.3s ease;
+    width: 100%;
+    transition: transform 0.5s ease;
 }
 
 .header .logo-button img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /*Подвал*/

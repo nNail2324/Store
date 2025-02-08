@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="567b1a71-8403-49dc-b766-7c7d2afbb474" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/html/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/components/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/image/add-favorite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/image/add-favorite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store-react/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2sJSeMfQaTo8tc9MGBjEWTKshvx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Универ/ОУНИДИТ/Журнал"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="567b1a71-8403-49dc-b766-7c7d2afbb474" name="Changes" comment="" />
+      <created>1738172281525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738172281525</updated>
+    </task>
+    <servers />
+  </component>
+</project>

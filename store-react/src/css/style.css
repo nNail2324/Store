@@ -37,11 +37,12 @@ input:focus {
     font-size: 15px;
     padding-left: 25px;
     padding-right: 25px;
+    transition: 0.5s ease;
 }
 
 .orange-button button:hover {
-    background-color: #DF7000;
-    border-color: #DF7000;
+    background-color: #000000;
+    border-color: #000000;
     color: white;
 }
 
@@ -61,12 +62,13 @@ input:focus {
     font-size: 15px;
     padding-left: 25px;
     padding-right: 25px;
+    transition: 0.5s ease;
 }
 
 .white-button button:hover {
     background-color: white;
-    border-color: #DF7000;
-    color: #DF7000;
+    border-color: #000000;
+    color: #000000;
 }
 
 .left-row {
@@ -152,10 +154,22 @@ input:focus {
     align-items: center;
 }
 
-.header .logo img {
-    width: 200px; 
-    height: 30px;
-    padding-top: 5px;
+.header .logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.header .logo-react {
+    color: #FF7F00;
+    font-size: 20px;
+}
+
+.header .logo label {
+    font-family: 'Asimplerdnm';
+    font-size: 15px;
+    color: #FF7F00;
 }
 
 .header .search input {
@@ -170,6 +184,7 @@ input:focus {
     background: url("../image/icon-search.png") no-repeat;
     background-size: auto 17px;
     background-position: 8px;
+    transition: 0.5s ease;
 }
 
 .header .search input::placeholder {
@@ -181,16 +196,19 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header .logo-button img {
     width: 33px;
     height: 33px;
-    transition: transform 0.3s ease;
 }
 
-.header .logo-button img:hover {
-    transform: scale(1.1);
+.header .logo-from-react {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+    color: #FF7F00;
+}
+
+.header .logo-from-react:hover {
+    color: #000000;
 }
 
 /*Подвал*/
@@ -205,20 +223,18 @@ input:focus {
     gap: 10px;
     background-color: black;
     margin-bottom: auto;
-}
-
-.footer .description {
-    padding-top: 5px;
+    align-items: center;
 }
 
 .footer .description label {
     color: white;
     font-family: Arial;
     font-weight: bold;
+    transition: 0.5s ease;
 }
 
 .footer .description label:hover {
-    color: #EBEBEB;
+    color: #FF7F00;
 }
 
 .footer .network {
@@ -227,12 +243,14 @@ input:focus {
     gap: 5px;
 }
 
-.footer .network img {
-    width: 40%;
-    transition: transform 0.1s;
+.footer .logo-react-description {
+    color: #FFFFFF;
+    font-size: 33px;
+    transition: 0.5s ease;
 }
 
-.footer .network img:hover {
+.footer .logo-react-description:hover {
+    color: #FF7F00;
     transform: scale(1.05);
 }
 

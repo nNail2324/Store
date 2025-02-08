@@ -3,79 +3,79 @@ import React from "react";
 class Favorite extends React.Component {
     render() {
         return (
-            <div class="body-page">
-                <div class="name">
+            <div className="body-page">
+                <div className="name">
                     <label>Избранное</label>
                 </div>
-                <div class="types">
-                    <div class="type">
-                        <div class="orange-title">
+                <div className="types">
+                    <div className="type">
+                        <div className="orange-title">
                             <label>Уголок стальной 25x25</label>
                         </div>
-                        <div class="black-title">
+                        <div className="black-title">
                             <label>120 руб./м</label>
                         </div>
-                        <div class="quantity-button">
+                        <div className="quantity-button">
                             <button id="plus">+</button>
                             <input type="text" placeholder="1" id="print" />
                             <button id="minus">-</button>
                         </div>
-                        <div class="left-row">
-                            <div class="orange-button">
+                        <div className="left-row">
+                            <div className="orange-button">
                                 <button>Перейти</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>+</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>&times;</button>
                             </div>
                         </div>
                     </div>
-                    <div class="type">
-                        <div class="orange-title">
+                    <div className="type">
+                        <div className="orange-title">
                             <label>Уголок стальной 25x25</label>
                         </div>
-                        <div class="black-title">
+                        <div className="black-title">
                             <label>120 руб./м</label>
                         </div>
-                        <div class="quantity-button">
+                        <div className="quantity-button">
                             <button id="plus">+</button>
                             <input type="text" placeholder="1" id="print" />
                             <button id="minus">-</button>
                         </div>
-                        <div class="left-row">
-                            <div class="orange-button">
+                        <div className="left-row">
+                            <div className="orange-button">
                                 <button>Перейти</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>+</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>&times;</button>
                             </div>
                         </div>
                     </div>
-                    <div class="type">
-                        <div class="orange-title">
+                    <div className="type">
+                        <div className="orange-title">
                             <label>Уголок стальной 25x25</label>
                         </div>
-                        <div class="black-title">
+                        <div className="black-title">
                             <label>120 руб./м</label>
                         </div>
-                        <div class="quantity-button">
+                        <div className="quantity-button">
                             <button id="plus">+</button>
                             <input type="text" placeholder="1" id="print" />
                             <button id="minus">-</button>
                         </div>
-                        <div class="left-row">
-                            <div class="orange-button">
+                        <div className="left-row">
+                            <div className="orange-button">
                                 <button>Перейти</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>+</button>
                             </div>
-                            <div class="add-button">
+                            <div className="add-button">
                                 <button>&times;</button>
                             </div>
                         </div>
